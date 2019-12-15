@@ -1,8 +1,21 @@
-mac/VLC-protocol-app/Contents/MacOS/vlc-protocol
-*.exe
-*.app
-*.zip
+# User-specific files VisualStudio files
+*.suo
+*.vcxproj.user
+
+# VisualStudio cache directory
+.vs/
+
+# Build results
+**/x86/[Dd]ebug/
+**/x86/[Rr]elease/
+**/x64/[Dd]ebug/
+**/x64/[Rr]elease/
+*.cache
 
 Thumbs.db
 *.DS_Store
 *.swp
+
+mac/VLC-protocol-app/Contents/MacOS/vlc-protocol
+*.app
+*.zip
